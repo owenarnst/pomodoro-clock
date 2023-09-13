@@ -1,0 +1,12 @@
+@import 'colors';
+
+.change {
+    border-radius: 5px;
+    border: 5px solid $accent-color;
+    background-color: $button-color;
+    font-size: 1.5rem;
+    color: white;
+    &:active {
+        background-color: $button-active-color;
+    }
+}

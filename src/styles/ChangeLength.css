@@ -1,0 +1,10 @@
+.change {
+  border-radius: 5px;
+  border: 5px solid #190061;
+  background-color: #282828;
+  font-size: 1.5rem;
+  color: white;
+}
+.change:active {
+  background-color: #212037;
+}/*# sourceMappingURL=ChangeLength.css.map */

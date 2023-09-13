@@ -1,0 +1,22 @@
+@import 'colors';
+
+h2 {
+    color: $text-color;
+    font-size: 3rem;
+}
+
+h3 {
+    color: white;
+}
+
+.length-display {
+    display: flex;
+    justify-content: center;
+    &>* {
+        display: grid;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        font-size: 3.5rem;
+    }
+}

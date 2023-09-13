@@ -1,0 +1,20 @@
+h2 {
+  color: #5520f6;
+  font-size: 3rem;
+}
+
+h3 {
+  color: white;
+}
+
+.length-display {
+  display: flex;
+  justify-content: center;
+}
+.length-display > * {
+  display: grid;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-size: 3.5rem;
+}/*# sourceMappingURL=BreakAndSession.css.map */

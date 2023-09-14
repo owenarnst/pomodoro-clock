@@ -26,6 +26,7 @@ export function Timer(props) {
     useEffect(() => {
         let intervalID;
         if (props.isRunning) {
+            document.title = display;
             intervalID = setInterval(() => {
                 if (seconds < 0) {
                     document.getElementById("beep").play();
@@ -49,6 +50,7 @@ export function Timer(props) {
 
     //Update length of timer in response to increment, decrement, or reset
     useEffect(() => {
+        document.title = "Pomodoro Clock";
         setIsSession(true);
         updateDisplay(formatDisplay(props.sessionMins * 60));
         updateSeconds(props.sessionMins * 60 - 1)

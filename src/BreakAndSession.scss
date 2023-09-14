@@ -1,8 +1,16 @@
 @import 'colors';
 
 h2 {
+    display: grid;
+    align-items: center;
     color: $text-color;
     font-size: 3rem;
+    width: max-content;
+    height: 70px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0 0 15px 0.5px;
+    border-radius: 5px;
 }
 
 h3 {

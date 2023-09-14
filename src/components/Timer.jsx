@@ -56,7 +56,7 @@ export function Timer(props) {
 
     return (
         <>
-            <h2 id="timer-label" className="my-2">{isSession ? "Session" : "Break"}</h2>
+            <h2 id="timer-label" className="my-3">{isSession ? "Session" : "Break"}</h2>
             <h1 id="time-left" className="p-3" style={seconds < 59 ? {color: "red", border: "solid red"} : {}} >
                 {display}
             </h1>
